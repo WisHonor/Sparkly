@@ -20,11 +20,11 @@ importers:
         specifier: ^0.9.4
         version: 0.9.5
       "@prisma/adapter-neon":
-        specifier: ^5.20.0
+        specifier: ^5.18.0
         version: 5.20.0(@neondatabase/serverless@0.9.5)
       "@prisma/client":
-        specifier: ^6.11.0
-        version: 6.11.0(prisma@6.11.0)
+        specifier: ^5.18.0
+        version: 5.20.0(prisma@5.20.0)
       "@radix-ui/react-dialog":
         specifier: ^1.1.2
         version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.11)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -71,8 +71,8 @@ importers:
         specifier: ^14.2.8
         version: 14.2.15(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       prisma:
-        specifier: ^6.11.0
-        version: 6.11.0
+        specifier: ^5.18.0
+        version: 5.20.0
       react:
         specifier: ^18
         version: 18.3.1
@@ -86,8 +86,8 @@ importers:
         specifier: ^15.5.0
         version: 15.5.0(react@18.3.1)
       stripe:
-        specifier: ^17.7.0
-        version: 17.7.0
+        specifier: ^17.2.0
+        version: 17.2.0
       superjson:
         specifier: ^2.2.1
         version: 2.2.1
@@ -3955,7 +3955,7 @@ packages:
       }
     engines: { node: ">=8" }
 
-  stripe@17.7.0:
+  stripe@17.2.0:
     resolution:
       {
         integrity: sha512-KuDplY9WrNKi07+uEFeguis/Mh+HC+hfEMy8P5snhQzCXUv01o+4KcIJ9auFxpv4Odp2R2krs9rZ9PhQl8+Sdw==,
@@ -6779,7 +6779,7 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  stripe@17.7.0:
+  stripe@17.2.0:
     dependencies:
       "@types/node": 20.16.11
       qs: 6.13.0
