@@ -15,8 +15,8 @@ const Page = () => {
   const router = useRouter()
 
   const INCLUDED_FEATURES = [
-    "10.000 real-time events per month",
-    "10 event categories",
+    
+    "Unlimited event categories",
     "Advanced analytics and insights",
     "Priority support",
   ]
@@ -52,7 +52,7 @@ const Page = () => {
 
         <div className="bg-white mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
           <div className="p-8 sm:p-10 lg:flex-auto">
-            <h3 className="text-3xl font-heading font-semibold tracking-tight text-gray-900">
+            <h3 className="text-3xl font-semibold font-mono tracking-tight text-gray-900">
               Lifetime access
             </h3>
 

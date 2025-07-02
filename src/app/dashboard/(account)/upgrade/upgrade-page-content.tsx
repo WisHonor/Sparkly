@@ -51,8 +51,7 @@ export const UpgradePageContent = ({ plan }: { plan: Plan }) => {
 
           <div>
             <p className="text-2xl font-bold">
-              {usageData?.eventsUsed || 0} of{" "}
-              {usageData?.eventsLimit.toLocaleString() || 100}
+              {usageData?.eventsUsed || 0} 
             </p>
             <p className="text-xs/5 text-muted-foreground">
               Events this period
@@ -67,8 +66,7 @@ export const UpgradePageContent = ({ plan }: { plan: Plan }) => {
 
           <div>
             <p className="text-2xl font-bold">
-              {usageData?.categoriesUsed || 0} of{" "}
-              {usageData?.categoriesLimit.toLocaleString() || 10}
+              {usageData?.categoriesUsed || 0} 
             </p>
             <p className="text-xs/5 text-muted-foreground">Active categories</p>
           </div>
