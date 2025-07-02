@@ -33,7 +33,7 @@ export const projectRouter = router({
       categoriesUsed: categoryCount,
       categoriesLimit: limits.maxEventCategories,
       eventsUsed: eventCount,
-      eventsLimit: limits.maxEventsPerMonth,
+      
       resetDate,
     })
   }),

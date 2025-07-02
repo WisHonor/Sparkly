@@ -37,15 +37,7 @@ export const Navbar = async () => {
               </>
             ) : (
               <>
-                <Link
-                  href="/pricing"
-                  className={buttonVariants({
-                    size: "sm",
-                    variant: "ghost",
-                  })}
-                >
-                  Pricing
-                </Link>
+                
                 <Link
                   href="/sign-in"
                   className={buttonVariants({

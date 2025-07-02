@@ -3,9 +3,11 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { client } from "@/lib/client"
 import { useMutation, useQueryClient } from "@tanstack/react-query"
+import { useState } from "react"
 
 export const DashboardEmptyState = () => {
   const queryClient = useQueryClient()
+  const [isOpen, setIsOpen] = useState(false)
 
   const { mutate: insertQuickstartCategories, isPending } = useMutation({
     mutationFn: async () => {
@@ -13,6 +15,8 @@ export const DashboardEmptyState = () => {
     },
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["user-event-categories"] })
+      queryClient.invalidateQueries({ queryKey: ["usage"] })
+      setIsOpen(false)
     },
   })
 
