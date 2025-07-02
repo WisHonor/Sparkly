@@ -66,6 +66,7 @@ export const POST = async (req: NextRequest) => {
         year: currentYear,
       },
     })
+    
 
     const quotaLimit =
       user.plan === "FREE"
@@ -76,7 +77,7 @@ export const POST = async (req: NextRequest) => {
       return NextResponse.json(
         {
           message:
-            "Monthly quota reached. Please upgrade your plan for more events",
+            "Monthly quota reached. Please upgrade your plan for more categories",
         },
         { status: 429 }
       )
