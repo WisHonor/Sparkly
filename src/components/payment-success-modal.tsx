@@ -52,7 +52,7 @@ export const PaymentSuccessModal = () => {
           </div>
         ) : (
           <>
-            <div className="relative aspect-video border border-gray-200 w-full overflow-hidden rounded-lg bg-gray-50">
+            <div className="relative border border-gray-200 w-full overflow-hidden rounded-lg bg-gray-50">
               <img
                 src="/brand-asset-heart.png"
                 className="h-full w-full object-cover"
